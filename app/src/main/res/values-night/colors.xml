@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Modo Oscuro -->
+    <color name="colorPrimary">#0097A7</color>
+    <color name="colorPrimaryDark">#004D55</color>
+    <color name="colorAccent">#000000</color>
+
+    <color name="backgroundColor">#121212</color>
+    <color name="textColor">#FFFFFF</color>
+</resources>

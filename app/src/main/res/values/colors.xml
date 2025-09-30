@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Modo Claro -->
+    <color name="colorPrimary">#0097A7</color>
+    <color name="colorPrimaryDark">#006978</color>
+    <color name="colorAccent">#FFFFFF</color>
+
+    <color name="backgroundColor">#FFFFFF</color>
+    <color name="textColor">#000000</color>
+
+</resources>
+
+
