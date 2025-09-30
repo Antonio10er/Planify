@@ -1,4 +1,5 @@
-# Planify
+# Planify <img width="24" height="24" alt="logoagenestudiantil" src="https://github.com/user-attachments/assets/980ba334-50bd-4eb3-86f4-2b43d7d5eb7b" />
+
 
 **Planify** es una aplicación Android que te ayuda a organizar tus horarios, agenda y asignaturas de manera fácil y rápida. Ideal para estudiantes que quieren tener todo su plan académico en un solo lugar.
 
