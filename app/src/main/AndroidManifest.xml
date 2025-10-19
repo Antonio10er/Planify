@@ -21,6 +21,9 @@
             android:name=".HorarioActivity"
             android:exported="false" />
         <activity
+            android:name=".FormularioAsignaturaActivity"
+            android:exported="false" />
+        <activity
             android:name=".AgendaActivity"
             android:exported="false" />
         <activity

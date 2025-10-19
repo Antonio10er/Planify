@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingStart="8dp"
+    android:paddingEnd="8dp"
+    android:paddingTop="8dp"
+    android:paddingBottom="4dp">
+
+    <ImageButton
+        android:id="@+id/btnEliminarAsignatura"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_delete"
+        app:tint="?attr/colorError"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:contentDescription="Eliminar Asignatura"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:padding="8dp"/>
+
+    <ImageButton
+        android:id="@+id/btnEditarAsignatura"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_update"
+        app:tint="?android:attr/textColorSecondary"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:contentDescription="Editar Asignatura"
+        android:layout_toStartOf="@id/btnEliminarAsignatura"
+        android:layout_centerVertical="true"
+        android:padding="8dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_toStartOf="@+id/btnEditarAsignatura"
+        android:layout_centerVertical="true">
+
+        <TextView
+            android:id="@+id/tvNombreAsignatura"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nombre de Asignatura"
+            android:textColor="?android:attr/textColorPrimary"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvDetallesAsignatura"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="08:00 - 09:30 | Aula: 101"
+            android:textColor="?android:attr/textColorSecondary" />
+
+        <TextView
+            android:id="@+id/tvProfesorAsignatura"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Profesor: Julio Nestor"
+            android:textColor="?android:attr/textColorSecondary"
+            android:textStyle="italic"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/tvNotaAsignatura"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="Nota: Recordar estudiar para el parcial."
+            android:textColor="?android:attr/textColorHint"
+            android:visibility="gone" />
+
+    </LinearLayout>
+
+</RelativeLayout>

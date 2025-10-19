@@ -13,5 +13,7 @@
         <!-- Fondo y texto -->
         <item name="android:windowBackground">@color/backgroundColor</item>
         <item name="android:textColor">@color/textColor</item>
+        <item name="android:fontFamily">@font/fredokaone_regular</item>
+
     </style>
 </resources>
